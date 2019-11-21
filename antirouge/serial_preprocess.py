@@ -199,6 +199,7 @@ def load_tokenizer_CNN():
         print('Tokenizer created. Loading ..')
     return load_tokenizer(fname)
 
+
 def _create_tokenizer_DUC():
     # read all DUC text
     # create tokenizer based on them

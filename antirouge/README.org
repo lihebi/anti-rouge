@@ -1,0 +1,22 @@
+* Rouge
+
+Wrapper of rouge 1.5.5 perl script:
+- [ ] https://github.com/bheinzerling/pyrouge
+  - The interface is to put system and model summaries into a dir, and
+    run on that dir. I don't like it.
+- https://github.com/tagucci/pythonrouge
+- [ ] archived https://github.com/andersjo/pyrouge
+  - tools/ROUGE-1.5.5 folder contains the perl release
+
+Pure Python implementation:
+
+- [X] https://github.com/pltrdy/rouge
+  This is known to be different from official perl script, as 
+- https://github.com/bdusell/rougescore
+- [ ] https://github.com/Diego999/py-rouge
+
+Rouge 2.0
+- https://github.com/kavgan/ROUGE-2.0: java implementation
+
+JS implementation:
+- https://github.com/kenlimmj/rouge

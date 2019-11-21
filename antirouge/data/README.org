@@ -1,0 +1,17 @@
+#+TITLE: Data processing
+
+* DUC/TAC
+
+Peer summarizer code (baseline[1-3], manual[A-J]submission, or system submission[15-31])
+
+DUC results meaning:
+- Model summarizer code (A-J)
+  - (HEBI: this is the person who created the model summary)
+- Assessor code (A-C,E-J)
+  - (HEBI: this is typically the same person as above)
+- Peer summarizer code (baseline[1-3], manual[A-J]submission, or system submission[15-31])
+  - Summary. baseline 1 [no 2 and 3] is the first 100 words selected
+    from article. What is manual submission? We care about 15-31.
+- Mean coverage (HEBI: I'm going to use this score ****)
+
+

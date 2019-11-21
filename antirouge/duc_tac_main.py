@@ -9,13 +9,15 @@ import tensorflow as tf
 from scipy import stats
 from keras.preprocessing.sequence import pad_sequences
 from keras import backend as K
+import matplotlib.pyplot as plt
 
 from antirouge import config
 
 # config.ARTICLE_MAX_SENT = 39
 # config.SUMMARY_MAX_SENT = 5
 
-def read_group(group):
+def read_group(group, kind):
+    assert kind in ['text', 'USE', 'USE-Large', 'InferSent']
     # Use USE data for now
     # the data should be [doc, abs, score]
     doc_ids = [d[0] for d in group]

@@ -79,5 +79,6 @@ os.environ["CUDA_LAUNCH_BLOCKING"]="1"
 # will chunk data tfrec file every 10000 stories
 DATA_BATCH_SIZE = 10000
 
-DUC_2002_RAW_DIR = os.path.join(DATA_DIR, 'DUC2002')
-DUC_2002_DIR = os.path.join(DATA_DIR, 'DUC2002_OUT')
+# DUC_2002_RAW_DIR = os.path.join(DATA_DIR, 'DUC2002')
+# DUC_2002_DIR = os.path.join(DATA_DIR, 'DUC2002_OUT')
+DUC_2002_DIR = os.path.join(DATA_DIR, 'DUC2002')
